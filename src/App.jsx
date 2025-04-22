@@ -1,10 +1,9 @@
-import Button from "./Button.jsx"
-import ProfilePicture from "./ProfilePicture.jsx";
+import Counter from "./Counter";
 
 function App() {
   return(
     <>
-    <ProfilePicture/>
+    <Counter/>
     </>
   );
 }

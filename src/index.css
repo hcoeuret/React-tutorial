@@ -1,41 +1,27 @@
-.welcome-message{
-  font-size : 2.5em;
-  background-color: green;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 0;
+.counter-container{
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.login-prompt{
-  font-size : 2.5em;
-  background-color: red;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 0;
+.count-display{
+  font-size: 10rem;
+  margin-top: 0;
+  margin-bottom: 50px
 }
 
-.list-category{
-  font-size: 2.5em;
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
   font-weight: bold;
-  color: rgb(56, 55, 55);
-  margin-bottom: 10px;
-  text-align: center;
-  border: 3px;
+  margin: 0px 5px;
+  background-color: rgb(91, 91, 119);
+  color: white;
+  border: none;
   border-radius: 5px;
-  background-color: rgb(101, 161, 109);
+  cursor: pointer;
 }
 
-.list-items li{
-  font-size: 2em;
-  list-style: none;
-  color: rgba(0, 0, 0, 0.24);
-  text-align: center;
-  margin: 0;
-}
-.list-items li:hover{
-  color: rgba(0, 0, 0, 0.514);
-  cursor: pointer
-  
+.counter-button:hover{
+  background-color: rgba(91, 91, 119, 0.384);
 }
